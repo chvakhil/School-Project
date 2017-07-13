@@ -1,0 +1,22 @@
+SMAP
+removechoice_jsp.java
+JSP
+*S JSP
+*F
++ 0 removechoice.jsp
+removechoice.jsp
+*L
+5,13:45
+18,14:59
+31,2:73
+33:75,3
+34,2:78
+36,4:81
+39,2:85
+41,4:88
+44:92,3
+45,2:96
+46,3:98
+49,7:102
+55,4:109
+*E

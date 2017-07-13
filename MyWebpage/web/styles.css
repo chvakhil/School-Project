@@ -1,0 +1,175 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: green;
+}
+.active {
+    background-color: blue;     
+}
+.ubox{
+    display: flex;
+    height: 80px;
+    background-color: coral;
+}
+.school_name{
+    padding: 5pt;
+    font-size: x-large;
+    text-align: center;    
+    
+}
+.ubox1{
+    border-right: solid;
+    width: 25%;
+    text-align: center;
+    
+}
+.scrolling{
+    color: magenta;
+}
+.school_desc{
+    text-align: center;
+}
+.ubox2{
+    width: 50%;
+    border-right: solid;
+}
+.scrolling{
+    color: magenta;
+}
+.box1 {
+    display: flex;
+}
+
+.box2 {
+    width:5%;
+
+}
+
+
+.table1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: #f0f0f0;
+}
+.status{
+    text-align: center;
+    animation-name: sanime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes sanime{
+    from{color:cyan;}
+    to{color:black}
+}
+td{
+    text-align: center;
+}
+body{
+    background-color:  #fffdd9;
+}
+th{
+    height: 50px;
+    background-color: #800000;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;}
+.form2{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=submit], button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=button]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+option{
+    font-size: 20px;
+}.images {
+    border-radius: 35%;
+    width: 70%;
+    height: auto;
+    
+}
+
+.home {
+    display: flex;
+}
+
+.home1{
+    border: inset 2px;
+    height: 250px;
+    padding: 25px;
+    margin: 2px;
+    border-radius: 30px ;
+    width: 20%;
+    background-color:  #ffd1a4;
+    text-align: center;
+}
+
+.ubox3 {
+    width: 25%;
+    
+}
+.notifications_heading{
+    border: inset 2px;
+    font-size: large;
+    text-decoration: underline;
+}
+.copyrights{
+    width: 80%;
+}
+.bottomline{
+    margin: 10px;
+    padding: 10px;
+    background-color:  #deaefa;
+    width: 100%;    
+    display: flex;
+}
